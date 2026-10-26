@@ -82,3 +82,12 @@ System.out.println(a.equals(c));
 ```
 Como a y c son objetos distintos, devuelve false
 
+## 10 Editor de texto
+-¿Por qué los atributos del editor deben ser privados?
+Para que ningun externo pueda modificarlos si pasar por los metodos
+-¿Que diferencia hay entre un metodo public y uno private?
+Un metodo public puede ser llamado por cualquier clase y uno private solo puede ser llamado por objetos de la misma clase
+-Si quitas public de un metodo, ¿qué acceso tiene y puede llamarlo pruebaEditor desde el mismo paquete?
+Tiene acceso package y PruebaEditor puede llamarlo porque estan en el mismo paquete
+-¿En que se diferencia el acceso de paquetes de protected?
+Protected incluye package y permite acceso desde subclases de otros paquetes
